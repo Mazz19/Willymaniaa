@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop - Tagli & Stile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">✂️</span>
+                <span class="logo-text">BARBER SHOP</span>
+            </a>
+            
+            <!-- Menu Hamburger per mobile -->
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigazione Desktop/Mobile -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="services.html" class="nav-link">Servizi</a></li>
+                <li><a href="products.html" class="nav-link">Prodotti</a></li>
+                <li><a href="contacts.html" class="nav-link">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>IL TUO STILE, LA NOSTRA PASSIONE</h1>
+            <p>Tagli classici e moderni per un look sempre curato. Professionisti esperti al tuo servizio.</p>
+            <a href="contacts.html" class="btn btn-primary">PRENOTA ORA</a>
+        </div>
+    </section>
+
+    <!-- Servizi Highlights -->
+    <section class="services-preview">
+        <div class="container">
+            <h2>I NOSTRI SERVIZI</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <div class="card-icon">✂️</div>
+                    <h3>Taglio Classico</h3>
+                    <p>Taglio tradizionale con lavaggio e styling</p>
+                    <span class="price">€25</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧔</div>
+                    <h3>Rasatura Completa</h3>
+                    <p>Barba e viso con asciugamano caldo</p>
+                    <span class="price">€20</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💈</div>
+                    <h3>Pacchetto Completo</h3>
+                    <p>Taglio + Rasatura con massaggio</p>
+                    <span class="price">€40</span>
+                </div>
+            </div>
+            <a href="services.html" class="btn btn-secondary">SCOPRI TUTTI I SERVIZI</a>
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section class="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>CHI SIAMO</h2>
+                <p>Siamo un barbiere storico con oltre 20 anni di esperienza nel settore. La nostra passione per il taglio e la cura della persona ci ha reso un punto di riferimento nella città.</p>
+                <p>Ogni cliente riceve un trattamento personalizzato, utilizzando solo prodotti di alta qualità.</p>
+            </div>
+            <div class="about-image">
+                <div class="image-placeholder">📷</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonianze -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>COSA DICONO I NOSTRI CLIENTI</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p>"Servizio eccellente! Il tagliatore mi ha capito perfettamente e il risultato è stato fantastico."</p>
+                    <span class="client-name">- Marco R.</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Ambiente rilassante e professionale. Tornerò sicuramente!"</p>
+                    <span class="client-name">- Luca B.</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I migliori prodotti per la barba che abbia mai provato."</p>
+                    <span class="client-name">- Andrea S.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>BARBER SHOP</h3>
+                <p>La tua cura personale, la nostra passione.</p>
+            </div>
+            <div class="footer-section">
+                <h3>ORARI</h3>
+                <p>Lun-Ven: 09:00 - 19:00</p>
+                <p>Sabato: 09:00 - 14:00</p>
+            </div>
+            <div class="footer-section">
+                <h3>CONTATTI</h3>
+                <p>Tel: +39 02 12345678</p>
+                <p>Email: info@barbershop.it</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Barber Shop. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
