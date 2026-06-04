@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatti - Barber Shop</title>
+    <title>Contatti - Willymaniaa</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\mattia.luzzi\Documents\Varie\Sito\img\WillyManiaa_white.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
     <nav class="navbar">
         <div class="container navbar-container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">✂️</span>
+                <span class="logo-icon"><img src="C:\Users\mattia.luzzi\Documents\Varie\Sito\img\WillyManiaa_white_OK.png" alt="Logo" class="image"></span>
                 <span class="logo-text">BARBER SHOP</span>
             </a>
             
@@ -46,27 +47,27 @@
                 <div class="contact-card">
                     <div class="contact-icon">📍</div>
                     <h3>INDIRIZZO</h3>
-                    <p>Via Roma 123<br>20100 Milano (MI)</p>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Via+Roma+123+Milano" target="_blank" class="btn btn-sm btn-secondary">APRI MAPPA</a>
+                    <p>Piazza Generale Romano 6<br>10081 Castellamonte (TO)</p>
+                    <a href="https://maps.app.goo.gl/YxpuVJAMaMwBUh6VA" target="_blank" class="btn btn-sm btn-secondary">APRI MAPPA</a>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">📞</div>
                     <h3>TELEFONO</h3>
-                    <p><a href="tel:+390212345678" class="phone-link">+39 02 12345678</a></p>
-                    <p><a href="tel:+393331234567" class="phone-link">+39 333 1234567</a></p>
+                    <p><a href="tel:+393420383385" class="phone-link">+39 342 038 3385</a></p>
                 </div>
                 <div class="contact-card">
-                    <div class="contact-icon">📧</div>
-                    <h3>EMAIL</h3>
-                    <p><a href="mailto:info@barbershop.it" class="email-link">info@barbershop.it</a></p>
-                    <p><a href="mailto:prenotazioni@barbershop.it" class="email-link">prenotazioni@barbershop.it</a></p>
+                    <div class="contact-icon">📱</div>
+                    <h3>APP PRENOTAZIONI</h3>
+                    <div class="app-links">
+                        <p><a href="https://play.google.com/store/apps/details?id=com.easybook.willymaniaa.fe&utm_source=emea_Med" class="email-link"><img src="C:\Users\mattia.luzzi\Documents\Varie\Sito\img\playstore_logo_icon_188436.png" height="40" alt="Play Store" class="icon"></a></p>
+                        <p><a href="https://apps.apple.com/it/app/willymaniaa-barber-shop/id6737987448" class="email-link"><img src="C:\Users\mattia.luzzi\Documents\Varie\Sito\img\App_store_2_40662.png" height="40" alt="App Store" class="icon"></a></p>
+                    </div>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">⏰</div>
                     <h3>ORARI DI APERTURA</h3>
-                    <p><strong>Lunedì - Venerdì:</strong><br>09:00 - 19:00</p>
-                    <p><strong>Sabato:</strong><br>09:00 - 14:00</p>
-                    <p><strong>Domenica:</strong><br>Chiuso</p>
+                    <p><strong>Lunedì - Sabato:</strong><br>08:00 - 19:00</p>
+                    <p><strong>Giorni di chiusura:</strong><br>Mercoledì e Domenica</p>
                 </div>
             </div>
         </div>
@@ -77,54 +78,12 @@
         <div class="container">
             <h2>TROVACI SULLE MAPPE</h2>
             <div class="map-container">
-                <a href="https://www.openstreetmap.org/?mlat=45.380284&mlon=7.715432#map=19/45.380284/7.715432">
-                    <iframe 
-                        src="https://www.openstreetmap.org/?mlat=45.380284&mlon=7.715432#map=19/45.380284/7.715432" 
-                        style="width: 100%; height: 400px; border: none;"
-                        allowfullscreen>
-                    </iframe>
-                </a>
-            </div>
+                <a href="https://maps.app.goo.gl/YxpuVJAMaMwBUh6VA" target="_blank">
+                <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=7.712442576885224%2C45.379093121801915%2C7.718638479709626%2C45.38144809525614&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=19/45.380271/7.715541">Visualizza mappa ingrandita</a></small>            </div>
         </div>
     </section>
 
-    <!-- Modulo Contatti -->
-    <section class="contact-form-section">
-        <div class="container">
-            <h2>INVIACI UN MESSAGGIO</h2>
-            <form class="contact-form" onsubmit="event.preventDefault(); alert('Grazie per il messaggio! Ti risponderemo al più presto.');">
-                <div class="form-group">
-                    <label for="name">Nome e Cognome *</label>
-                    <input type="text" id="name" name="name" required placeholder="Il tuo nome">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" id="email" name="email" required placeholder="la tua email">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Telefono</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Il tuo numero di telefono">
-                </div>
-                <div class="form-group">
-                    <label for="subject">Oggetto *</label>
-                    <select id="subject" name="subject" required>
-                        <option value="">Seleziona un argomento</option>
-                        <option value="prenotazione">Prenotazione Appuntamento</option>
-                        <option value="informazioni">Informazioni sui Servizi</option>
-                        <option value="prodotti">Informazioni sui Prodotti</option>
-                        <option value="altro">Altro</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Messaggio *</label>
-                    <textarea id="message" name="message" rows="5" required placeholder="Scrivi qui il tuo messaggio..."></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg">INVIA MESSAGGIO</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
+     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-section">
@@ -133,17 +92,18 @@
             </div>
             <div class="footer-section">
                 <h3>ORARI</h3>
-                <p>Lun-Ven: 09:00 - 19:00</p>
-                <p>Sabato: 09:00 - 14:00</p>
+                <p>Lun-Sabato: 08:00 - 19:00</p>
+                <p>Mercoledì e Domenica: Chiuso</p>
             </div>
             <div class="footer-section">
                 <h3>CONTATTI</h3>
-                <p>Tel: +39 02 12345678</p>
-                <p>Email: info@barbershop.it</p>
+                <p>Tel: +39 3420383385</p>
+                <p>Prenotazioni: <a href="contacts.html">Contattaci</a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Barber Shop. Tutti i diritti riservati.</p>
+            <p>&copy; 2026 Willymaniaa Barber Shop. Tutti i diritti riservati.</p>
+            <p>Creato con ❤️ da Mazz</p>
         </div>
     </footer>
 

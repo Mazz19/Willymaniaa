@@ -604,6 +604,18 @@ select:focus {
     border-color: var(--accent-color);
 }
 
+.image {
+        height: 50px;
+        border-radius: 10px;
+    }
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
     .hero h1 {
